@@ -57,7 +57,7 @@ class Ball:
         """
         If ball goes past the paddles then we
         -update player score
-        -centers ball
+        -centers ball 
         """
         if self.x + self.width > self.gs.get("width"):
             player.update_score()
